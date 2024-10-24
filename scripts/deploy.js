@@ -4,11 +4,11 @@
 // You can also run a script with `npx hardhat run <script>`. If you do that, Hardhat
 // will compile your contracts, add the Hardhat Runtime Environment's members to the
 // global scope, and execute the script.
-const hre = require("hardhat");
+const hardhat = require("hardhat");
 
 async function main() {
   
-  const contractApi = await hre.ethers.getContractFactory("contractApi");
+  const contractApi = await hardhat.ethers.getContractFactory("contractApi");
   const contractApi_ = await contractApi.deploy();
 
   await contractApi_.deployed();
