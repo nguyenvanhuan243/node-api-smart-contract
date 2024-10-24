@@ -13,6 +13,12 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 
+app.get('/', async(req, res) => {
+    res.send({
+        message: "ok"
+    });
+});
+
 app.get('/products/:id', async(req, res) => {   //http://localhost:3000/products/1
     try {
         const id = req.params.id;

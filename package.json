@@ -13,7 +13,11 @@
     "express": "^4.21.1",
     "express-fileupload": "^1.5.1",
     "hardhat": "^2.19.0",
+    "nodemon": "^3.1.7",
     "path": "^0.12.7"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
