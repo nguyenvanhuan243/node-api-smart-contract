@@ -1,4 +1,4 @@
-# node-api-smart-contract
+# node-api-smart-contract (Hardhat and infura)
 
 # Start hardhat
 ```
