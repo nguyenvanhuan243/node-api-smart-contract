@@ -19,9 +19,7 @@ const contractAddress = process.env.CONTRACT_ADDRESS;
 const {abi} = require("./artifacts/contracts/contractApi.sol/contractApi.json");
 ```
 
-- Use infure
-
-- Infura Dashboard
+- Use infure and infura dashboard
 ![image](https://github.com/user-attachments/assets/2b451bac-d1aa-451e-8b83-09574cff4779)
 ```
 const API_URL         = "https://sepolia.infura.io/v3/af2df50ef3c746f182a124a437a00aab";
