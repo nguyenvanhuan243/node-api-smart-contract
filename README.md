@@ -5,6 +5,13 @@
 npx hardhat node
 ```
 
+# Start node and api
+```
+nvm use
+yarn install
+yarn start
+```
+
 # Create contract address
 ```
 npx hardhat run --network volta scripts/deploy.js
